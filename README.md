@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Engage-front
-=======
+
 # Front end Engajamento de Leitores
 
 Este é um projeto para visualização de métricas de engajamento de leitores de newsletters. Ele permite que os administradores monitorem dados de usuários, streaks de leitura, e métricas de engajamento, enquanto os leitores podem acompanhar o seu progresso e manter seu streak de leitura.
@@ -54,4 +54,4 @@ Este é um projeto para visualização de métricas de engajamento de leitores d
 ### **Dashboard Administrativos**
 
 ![Dashboard](./public/dash.png)
->>>>>>> feat/frontGameficacao
+
