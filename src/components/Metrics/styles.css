@@ -1,0 +1,26 @@
+.metrics-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.metric-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.metric-card h3 {
+  font-size: 18px;
+  color: #615a5a;
+  margin-bottom: 10px;
+}
+
+.metric-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #240e0b;
+}

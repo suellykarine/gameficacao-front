@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Front end Engajamento de Leitores
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto para visualização de métricas de engajamento de leitores de newsletters. Ele permite que os administradores monitorem dados de usuários, streaks de leitura, e métricas de engajamento, enquanto os leitores podem acompanhar o seu progresso e manter seu streak de leitura.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+### **Área de Login para Leitores**
 
-### `npm start`
+- **Página de Login**: Onde os leitores podem se autenticar usando seu **e-mail**.
+- **Exibição de Streak**: Mostra quantos dias consecutivos o leitor abriu a newsletter.
+- **Histórico de Aberturas**: Exibe o histórico de aberturas do leitor.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### **Dashboard Administrativo**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Visão Geral das Métricas**: Exibe métricas como o total de leitores, leitores engajados e streaks ativos.
+- **Ranking de Leitores**: Exibe uma lista com os leitores mais engajados, junto com seu streak atual.
+- **Filtros**: Permite filtrar os dados por **newsletter**, **período de tempo** (última semana, último mês) e **status do streak**.
+- **Gráficos de Engajamento**: Mostra gráficos com dados sobre o engajamento dos leitores.
 
-### `npm test`
+## Como Usar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requisitos
 
-### `npm run build`
+- Node.js (versão >= 14.x)
+- npm (ou yarn)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Passos para rodar o projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone do repositório : git clone https://github.com/suellykarine/gameficacao-front
+- Instale as dependencias: npm install
+- Inicie o servidor: npm start: O projeto ficará acessível na URL http://localhost:3000 (ou na porta configurada no seu projeto).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Atenção
 
-### `npm run eject`
+- Dados Mocados
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Modelos das telas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Área de Login para Leitores**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Login](./public/login.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### **Validação de Login para Leitores**
 
-## Learn More
+![Validação](./public/validacao.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Streak de Leitura**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Métricas](./public/streak.png)
+
+### **Dashboard Administrativos**
+
+![Dashboard](./public/dash.png)
