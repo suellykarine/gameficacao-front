@@ -1,0 +1,19 @@
+.filters-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-left: 2px;
+}
+
+.filter:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,28 @@
+.streak-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.streak-info h2 {
+  margin-bottom: 20px;
+  color: #ffce04;
+}
+
+.streak-info h3 {
+  color: #240e0b;
+  margin-bottom: 20px;
+}
+
+.streak-info h4 {
+  margin-top: 30px;
+  color: #ffce04;
+}
+
+.streak-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.streak-info li {
+  margin: 10px 0;
+}
