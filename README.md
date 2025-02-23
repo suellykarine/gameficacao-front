@@ -17,6 +17,10 @@ Este é um projeto para visualização de métricas de engajamento de leitores d
 - **Filtros**: Permite filtrar os dados por **newsletter**, **período de tempo** (última semana, último mês) e **status do streak**.
 - **Gráficos de Engajamento**: Mostra gráficos com dados sobre o engajamento dos leitores.
 
+### Atenção
+
+- Dados Mocados
+
 ## Como Usar
 
 ### Requisitos
@@ -29,10 +33,6 @@ Este é um projeto para visualização de métricas de engajamento de leitores d
 - Clone do repositório : git clone https://github.com/suellykarine/gameficacao-front
 - Instale as dependencias: npm install
 - Inicie o servidor: npm start: O projeto ficará acessível na URL http://localhost:3000 (ou na porta configurada no seu projeto).
-
-### Atenção
-
-- Dados Mocados
 
 ## Modelos das telas
 
